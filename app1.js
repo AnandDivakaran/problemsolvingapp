@@ -1,5 +1,5 @@
 /*
-Anagram - Take two strings as input to a function and return True if they are Anagram of one another.
+Anagram - Take two strings as input to a function and return true if they are Anagram of one another.
 */
 
 const anagramValidation = (string1, string2) => {
