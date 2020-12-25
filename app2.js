@@ -7,8 +7,7 @@ const scanArray = (arr) => {
     if(!arr || arr.length <=1) {
         return undefined;
     }
-    let start = 0;
-    let end = arr.length - 1;
+    let start = 0, end = arr.length - 1;
     while(start < end) {
         let sum = arr[start] + arr[end];
         if(sum == 0) {
